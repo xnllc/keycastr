@@ -119,10 +119,10 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* KeyCastr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyCastr_Prefix.pch; sourceTree = "<group>"; };
+		385817C922239F500085ED53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		3D16404E0F3BCC6900CA65AD /* KeyCastrStatusItemActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCastrStatusItemActive.png; sourceTree = "<group>"; };
 		3D16404F0F3BCC6900CA65AD /* KeyCastrStatusItemInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCastrStatusItemInactive.png; sourceTree = "<group>"; };
 		3D16405F0F3BCEC900CA65AD /* KeyCastrInactive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KeyCastrInactive.icns; sourceTree = "<group>"; };
@@ -447,6 +447,7 @@
 			knownRegions = (
 				en,
 				English,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* KeyCastr */;
 			projectDirPath = "";
@@ -588,7 +589,7 @@
 		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				385817C922239F500085ED53 /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
