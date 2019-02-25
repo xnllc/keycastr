@@ -428,12 +428,18 @@ static NSInteger kKCPrefDisplayIconInDock = 0x02;
 		? [NSImage imageNamed:@"KeyCastrStatusItemActive"]
 		: [NSImage imageNamed:@"KeyCastrStatusItemInactive"])
 		];
-	[statusShortcutItem setTitle:(_isCapturing
-		? @"Stop Casting"
-		: @"Start Casting")];
-	[dockShortcutItem setTitle:(_isCapturing
-		? @"Stop Casting"
-		: @"Start Casting")];
+//    [statusShortcutItem setTitle:(_isCapturing
+//        ? @"Stop Casting"
+//        : @"Start Casting")];
+//    [dockShortcutItem setTitle:(_isCapturing
+//        ? @"Stop Casting"
+//        : @"Start Casting")];
+    [statusShortcutItem setTitle:(_isCapturing
+                                  ? @"停止显示"
+                                  : @"开始显示")];
+    [dockShortcutItem setTitle:(_isCapturing
+                                ? @"停止显示"
+                                : @"开始显示")];
 	[NSApp setApplicationIconImage:(_isCapturing
 		? [NSImage imageNamed:@"KeyCastr"]
 		: [NSImage imageNamed:@"KeyCastrInactive"])];

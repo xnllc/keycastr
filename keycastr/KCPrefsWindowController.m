@@ -160,7 +160,8 @@
 	[prefsWindow setToolbar:toolbar];
 
 	NSView* currentView = [preferenceViews objectAtIndex:0];
-	[prefsWindow setTitle:@"General"];
+//    [prefsWindow setTitle:@"General"];
+    [prefsWindow setTitle:@"通用"];
 	[prefsWindow setContentSize:[currentView frame].size];
 	[prefsWindow center];
 	[prefsWindow setContentView:currentView];
